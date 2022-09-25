@@ -1,0 +1,40 @@
+{
+  "name": "simple-template",
+  "version": "1.0.0",
+  "description": "Quick and Easy Next JS Typescript Starter",
+  "author": "NEERAJ <teamsimpleneeraj@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "typescript"
+  ],
+  "main": "bin/index.js",
+  "bin": {
+    "simple-template": "bin/index.js"
+  },
+  "scripts": {
+    "start": "node bin/index.js"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "edit-json-file": "^1.5.0",
+    "gitignore": "^0.6.0",
+    "inquirer": "^6.5.2",
+    "ncp": "^2.0.0",
+    "ora": "^4.0.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">= 10.13.0",
+    "npm": ">= 6.11.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simpleneeraj/simple-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/simpleneeraj/simple-template/issues"
+  },
+  "homepage": "https://github.com/simpleneeraj/simple-template#readme"
+}
