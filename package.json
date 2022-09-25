@@ -1,7 +1,7 @@
 {
   "name": "next-templates",
   "version": "2.0.0",
-  "description": "Quick and Easy Next JS Typescript Starter",
+  "description": "Quick and Easy React JS and Next JS Typescript Starter templates",
   "author": "NEERAJ <teamsimpleneeraj@gmail.com>",
   "license": "MIT",
   "keywords": [
@@ -12,7 +12,8 @@
     "simple-template": "bin/index.js"
   },
   "scripts": {
-    "start": "node bin/index.js"
+    "start": "node bin/index.js",
+    "npm-publish": "npm version major && npm publish"
   },
   "dependencies": {
     "chalk": "^4.1.2",
